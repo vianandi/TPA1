@@ -1,0 +1,150 @@
+<html>
+
+<head>
+    <title>Vianandi</title>
+    <link rel="icon" href="valogoblck.png">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="button.css">
+    <link rel="stylesheet" href="footer.css">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: sans-serif;
+            background-color: #000000;
+        }
+        
+        .blog {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: auto;
+            grid-gap: 20px;
+            margin: 15px 160px;
+        }
+        
+        .article {
+            background-color: #fff;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            border-radius: 15px;
+        }
+        
+        .article h2 {
+            font-size: 24px;
+            margin: 10px 0;
+        }
+        
+        .article p {
+            font-size: 16px;
+            line-height: 1.5;
+            margin: 10px 0;
+            text-align: justify;
+        }
+        
+        .title {
+            text-align: center;
+            font-size: 40px;
+            color: #ffffff;
+        }
+        
+        .btn-read {
+            margin-top: 30px;
+        }
+        
+        .read {
+            font-size: 18px;
+            background: #4070f4;
+            color: #000000;
+            text-decoration: none;
+            border: none;
+            padding: 8px 25px;
+            border-radius: 6px;
+            transition: 0.5s;
+        }
+        
+        .read:hover {
+            background: #000000;
+            border: 3px solid #7d9ae8;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <nav>
+            <ul>
+                <li><a href="index.html"><button style="--clr:#0FF0FC"><span>Home</span><i></i></button></a></li>
+                <li><a href="about.html"><button style="--clr:#39FF14"><span>About</span><i></i></button></a></li>
+                <li><a href="portofolio.html"><button style="--clr:#FF1493"><span>Portofolio</span><i></i></button></a></li>
+                <li><a href="#.html"><button style="--clr:#1F51FF"><span>Blog</span><i></i></button></a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div>
+            <p class="title">Welcome to My Blog</p>
+        </div>
+        <div class="blog">
+            <div class="article">
+                <h2>Documentation of ToDoList App</h2>
+                <p>To Do List application allows users to plan activities that are more organized, on time, achieve goals more quickly, and are responsible for the work that must be done and completed.</p>
+                <div class="btn-read">
+                    <a href="todolist.html" class="read">Read More</a>
+                </div>
+            </div>
+            <div class="article">
+                <h2>Documentation of E-Commerce App</h2>
+                <p>This project is temporarily created to help people who have an offline store and want to sell their products online. For now, the appearance of this application is quite simple because it is still in the development stage.</p>
+                <div class="btn-read">
+                    <a href="blacklist.html" class="read">Read More</a>
+                </div>
+            </div>
+            <div class="article">
+
+                <h2>Documentation of Calculator</h2>
+                <p>This project was created to help users perform various arithmetic calculations. This android application will have a user interface with numbers and arithmetic operations.</p>
+                <div class="btn-read">
+                    <a href="calc.html" class="read">Read More</a>
+                </div>
+            </div>
+            <div class="article">
+                <h2>Documentation of Bus Ticket Booking App</h2>
+                <p>This project was created to make it easier for users to travel by bus. The bus seat reservation system is concerned with maintaining the details of each passenger.</p>
+                <div class="btn-read">
+                    <a href="letsgo.html" class="read">Read More</a>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+<footer class="top">
+    <img style="width:200px" src=" valogo.png " />
+    <div class="links">
+        <div>
+            <h2>Platform</h2>
+            <a href="#">vianandi7ygy@gmail.com</a>
+            <a href="https://www.instagram.com/vianandii/">Instagram</a>
+            <a href="https://www.linkedin.com/in/oktavian-andi-cahya-nugraha/">LinkedIn</a>
+            <a href="https://twitter.com/Vianandi3?t=ope1UKB31fOQ6UEkIZ-CRQ&s=09">Twitter</a>
+            <a href="#">FAQ</a>
+        </div>
+        <div>
+            <h2>Project</h2>
+            <a href="todolist.html">ToDoList App</a>
+            <a href="blacklist.html">E-Commerce App</a>
+            <a href="calc.html">Calculator App</a>
+            <a href="letsgo.html">Booking Ticket Bus App</a>
+        </div>
+    </div>
+</footer>
+<footer class="bottom ">
+    <div class="legal ">
+        <span>Vianandi &#169; 2023, All rights reserved</span>
+        <a href="#">License</a>
+        <a href="#">Terms</a>
+        <a href="#">Privacy</a>
+    </div>
+</footer>
+
+</html>

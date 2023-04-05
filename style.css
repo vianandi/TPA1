@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+/* @media (min-width: 600px) {
+    .cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+} */
+
+
+/* =========================================== RESPONSIVE ===========================================*/
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #000000;
+}
+
+span {
+    color: #4070f4;
+}
+
+.portofolio {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: auto;
+    grid-gap: 20px;
+    margin: 50px;
+}
+
+.card {
+    /* background-color: #fff; */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 700px;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.card img {
+    width: 250px;
+    height: auto;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.card h2 {
+    margin: 10px 0;
+    color: #FFFFFF;
+}
+
+.card p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 10px 0;
+    color: #FFFFFF;
+    text-align: justify;
+}
+
+.blog {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-gap: 20px;
+    margin: 15px 70px;
+}
+
+.article {
+    background-color: #fff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.article h2 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.article p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 10px 0;
+    text-align: justify;
+}
+
+.btn-read {
+    margin-top: 30px;
+}
+
+.read {
+    font-size: 18px;
+    background: #4070f4;
+    color: #000000;
+    text-decoration: none;
+    border: none;
+    padding: 8px 25px;
+    border-radius: 6px;
+    transition: 0.5s;
+}
+
+.read:hover {
+    background: #000000;
+    border: 3px solid #7d9ae8;
+}
+
+.name {
+    font-size: 40px;
+    color: #FFFFFF;
+}
+
+.eduskill {
+    font-size: 25px;
+    color: #FFFFFF;
+}
+
+.top-head {
+    text-align: center;
+    padding: 50px;
+}
+
+.portfolio,
+.blog {
+    padding: 0 50px;
+}
+
+.porto,
+.blg {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+.ftr {
+    text-decoration: none;
+    color: #A2B5CD;
+    position: relative;
+}
+
+article {
+    margin-bottom: 50px;
+}

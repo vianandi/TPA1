@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+/*
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+*/
+
+@media (width <620px) {
+    footer {
+        flex-direction: column;
+    }
+    footer.bottom {
+        gap: 16px;
+        flex-direction: column-reverse;
+    }
+}
+
+@media(width>=1440px) {
+    footer {
+        margin: 0 auto;
+        max-width: 600px;
+        padding: 0;
+    }
+}
+
+@media (width <420px) {
+    footer {
+        text-align: center;
+        align-items: center;
+    }
+    footer.top .links {
+        grid-template-columns: 1fr;
+    }
+    footer.bottom {
+        align-items: center;
+    }
+    footer .legal>span {
+        display: block;
+        margin-right: 0;
+        margin-bottom: 2px;
+    }
+}
+
+
+/* =========================================== RESPONSIVE ===========================================*/
+
+footer {
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+    margin: 0 0px;
+    color: #A2B5CD;
+    background-color: #000000;
+    justify-content: flex-start;
+    padding-top: 40px;
+    /* width: 100%; */
+}
+
+footer.top {
+    border-bottom: 2px solid #3A4F6A;
+    /*   */
+}
+
+footer.top .links {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+footer.bottom {
+    padding: 20px 0;
+    justify-content: center;
+}
+
+footer .bottom .links {
+    display: flex;
+    gap: 18px;
+}
+
+footer .links>div {
+    display: grid;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+footer h2 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+footer .legal {
+    font-size: 14px;
+}
+
+footer .legal>a {
+    margin: 0 4px;
+}
+
+footer .legal>span {
+    margin-right: 10px;
+}
+
+footer.bottom .links>a {
+    font-size: 24px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #A2B5CD;
+    position: relative;
+}
+
+a:hover {
+    color: #ffffff;
+}
+
+
+/* a::before {
+    content: " ";
+    inset: 0;
+    background: #D55650;
+    position: absolute;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.5s ease-in-out;
+    z-index: -1;
+}
+
+a:hover::before {
+    transform: scaleX(1);
+    transform-origin: left;
+    background: #11b15c;
+} */

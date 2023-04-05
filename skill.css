@@ -1,0 +1,54 @@
+/* @media screen and (max-width: 1000px) {
+    #content,
+    aside {
+        width: 100%;
+        padding: 0;
+    }
+} */
+
+header {
+    display: inline;
+}
+
+nav {
+    background-color: black;
+    padding: 5px;
+    position: sticky;
+    top: 0;
+    text-align: center;
+    z-index: 10;
+}
+
+nav a {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+    float: center;
+}
+
+
+/* nav a:hover {
+    font-weight: bold;
+} */
+
+nav li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+nav li a {
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: bold;
+}
+
+
+/* nav li a:hover {
+    background: grey;
+    color: white;
+    border: radius 10px;
+} */
